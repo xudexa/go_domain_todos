@@ -70,7 +70,6 @@ func (t Todos) Len() int {
 	return len(t)
 }
 
-// commentaire test
 func (t Todos) Less(i, j int) bool {
 	if t[i].Status == Archived {
 		return false
